@@ -7,5 +7,5 @@ class School
     roster = []
   end
 
-  def roster
+  #def roster
 end
