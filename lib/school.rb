@@ -18,6 +18,6 @@ class School
   end
 
   def grade(grade)
-    @roster[grade].length
+    @roster[grade]
   end
 end
