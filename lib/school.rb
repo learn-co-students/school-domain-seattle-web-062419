@@ -25,7 +25,7 @@ class School
 
     @roster.sort_by { |grade, student| student}.to_h
     @roster.sort.each do |grade, student|
-      student.sort.to_h
+      student.sort
     end
   end
 end
