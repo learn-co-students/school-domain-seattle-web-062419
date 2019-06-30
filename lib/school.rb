@@ -28,4 +28,5 @@ class School
       student.sort
     end
   end
+  @roster.to_h
 end
